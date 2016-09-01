@@ -1,0 +1,4 @@
+version: '2'
+services:
+  auth:
+    image: dasarma/aqua-auth

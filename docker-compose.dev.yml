@@ -1,0 +1,9 @@
+version: '2'
+services:
+  auth:
+    extends:
+      file: docker-compose.yml
+      service: auth
+    volumes:
+      - .:/usr/src/app
+    command: 'npm run start-dev'

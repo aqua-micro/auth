@@ -1,0 +1,21 @@
+{
+  "name": "aqua-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/bundle.js",
+    "start-dev": "nodemon dist/bundle.js",
+    "watch": "rollup --watch --config rollup.config.js",
+    "build": "rollup --config rollup.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rollup": "^0.34.12",
+    "rollup-watch": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  }
+}
